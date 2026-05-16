@@ -1,0 +1,95 @@
+2026-05-09 12:06:04,497 - data_processing - INFO - Starting data preprocessing. is_training=False
+2026-05-09 12:06:04,497 - data_processing - INFO - Handling outliers for column: TrainingTimesLastYear
+2026-05-09 12:06:04,499 - data_processing - WARNING - Column TrainingTimesLastYear not found in dataset. Skipping outlier handling.
+2026-05-09 12:06:04,499 - data_processing - INFO - Dropping unnecessary columns.
+2026-05-09 12:06:04,520 - data_processing - ERROR - Error during data preprocessing: [Errno 2] No such file or directory: 'C:\\Users\\Mallikarjun K\\OneDrive\\Desktop\\Akash\\model\\feature_names.joblib'
+2026-05-09 12:06:04,521 - data_processing - INFO - Starting data preprocessing. is_training=False
+2026-05-09 12:06:04,521 - data_processing - INFO - Handling outliers for column: TrainingTimesLastYear
+2026-05-09 12:06:04,522 - data_processing - WARNING - Column TrainingTimesLastYear not found in dataset. Skipping outlier handling.
+2026-05-09 12:06:04,522 - data_processing - INFO - Dropping unnecessary columns.
+2026-05-09 12:06:04,523 - data_processing - ERROR - Error during data preprocessing: [Errno 2] No such file or directory: 'C:\\Users\\Mallikarjun K\\OneDrive\\Desktop\\Akash\\model\\feature_names.joblib'
+2026-05-09 12:06:04,524 - data_processing - INFO - Handling outliers for column: TrainingTimesLastYear
+2026-05-09 12:06:04,526 - data_processing - INFO - No outliers found in TrainingTimesLastYear.
+2026-05-09 12:07:18,019 - data_processing - INFO - Starting data preprocessing. is_training=False
+2026-05-09 12:07:18,019 - data_processing - INFO - Handling outliers for column: TrainingTimesLastYear
+2026-05-09 12:07:18,020 - data_processing - WARNING - Column TrainingTimesLastYear not found in dataset. Skipping outlier handling.
+2026-05-09 12:07:18,020 - data_processing - INFO - Dropping unnecessary columns.
+2026-05-09 12:07:18,023 - data_processing - ERROR - Error during data preprocessing: [Errno 2] No such file or directory: 'C:\\Users\\Mallikarjun K\\OneDrive\\Desktop\\Akash\\model\\feature_names.joblib'
+2026-05-09 12:07:18,024 - data_processing - INFO - Starting data preprocessing. is_training=False
+2026-05-09 12:07:18,024 - data_processing - INFO - Handling outliers for column: TrainingTimesLastYear
+2026-05-09 12:07:18,025 - data_processing - WARNING - Column TrainingTimesLastYear not found in dataset. Skipping outlier handling.
+2026-05-09 12:07:18,025 - data_processing - INFO - Dropping unnecessary columns.
+2026-05-09 12:07:18,026 - data_processing - ERROR - Error during data preprocessing: [Errno 2] No such file or directory: 'C:\\Users\\Mallikarjun K\\OneDrive\\Desktop\\Akash\\model\\feature_names.joblib'
+2026-05-09 12:07:18,027 - data_processing - INFO - Handling outliers for column: TrainingTimesLastYear
+2026-05-09 12:07:18,031 - data_processing - ERROR - Error handling outliers in column TrainingTimesLastYear: Invalid value '100.99009900990099' for dtype 'int64'
+2026-05-09 12:08:04,650 - data_processing - INFO - Starting data preprocessing. is_training=False
+2026-05-09 12:08:04,650 - data_processing - INFO - Handling outliers for column: TrainingTimesLastYear
+2026-05-09 12:08:04,651 - data_processing - WARNING - Column TrainingTimesLastYear not found in dataset. Skipping outlier handling.
+2026-05-09 12:08:04,651 - data_processing - INFO - Dropping unnecessary columns.
+2026-05-09 12:08:04,654 - data_processing - ERROR - Error during data preprocessing: [Errno 2] No such file or directory: 'C:\\Users\\Mallikarjun K\\OneDrive\\Desktop\\Akash\\model\\feature_names.joblib'
+2026-05-09 12:08:04,655 - data_processing - INFO - Starting data preprocessing. is_training=False
+2026-05-09 12:08:04,655 - data_processing - INFO - Handling outliers for column: TrainingTimesLastYear
+2026-05-09 12:08:04,656 - data_processing - WARNING - Column TrainingTimesLastYear not found in dataset. Skipping outlier handling.
+2026-05-09 12:08:04,656 - data_processing - INFO - Dropping unnecessary columns.
+2026-05-09 12:08:04,658 - data_processing - ERROR - Error during data preprocessing: [Errno 2] No such file or directory: 'C:\\Users\\Mallikarjun K\\OneDrive\\Desktop\\Akash\\model\\feature_names.joblib'
+2026-05-09 12:08:04,659 - data_processing - INFO - Handling outliers for column: TrainingTimesLastYear
+2026-05-09 12:08:04,665 - data_processing - INFO - Replaced 1 outliers in TrainingTimesLastYear with mean value.
+2026-05-09 13:04:47,432 - model_trainer - INFO - Starting model training pipeline.
+2026-05-09 13:04:47,506 - model_trainer - INFO - Loaded dataset with shape (1470, 35)
+2026-05-09 13:04:47,507 - data_processing - INFO - Starting data preprocessing. is_training=True
+2026-05-09 13:04:47,507 - data_processing - INFO - Handling outliers for column: TrainingTimesLastYear
+2026-05-09 13:04:47,512 - data_processing - INFO - No outliers found in TrainingTimesLastYear.
+2026-05-09 13:04:47,512 - data_processing - INFO - Extracting target variable 'Attrition'
+2026-05-09 13:04:47,538 - data_processing - INFO - Dropping unnecessary columns.
+2026-05-09 13:04:47,631 - data_processing - INFO - Data preprocessing completed successfully.
+2026-05-09 13:04:47,636 - model_trainer - INFO - Train set: (1176, 50), Test set: (294, 50)
+2026-05-09 13:04:47,636 - model_trainer - INFO - Applying SMOTE to balance the training data.
+2026-05-09 13:04:51,048 - model_trainer - INFO - Resampled Train set shape: (1956, 50)
+2026-05-09 13:04:51,049 - model_trainer - INFO - Training Gradient Boosting Classifier with optimal parameters.
+2026-05-09 13:04:53,375 - model_trainer - INFO - Model trained successfully. Test Accuracy: 0.8776
+2026-05-09 13:04:53,408 - model_trainer - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.90      0.97      0.93       255
+           1       0.58      0.28      0.38        39
+
+    accuracy                           0.88       294
+   macro avg       0.74      0.63      0.66       294
+weighted avg       0.86      0.88      0.86       294
+
+2026-05-09 13:04:53,423 - model_trainer - INFO - Model saved to C:\Users\Mallikarjun K\OneDrive\Desktop\Akash\model\model.joblib
+2026-05-09 13:05:43,595 - streamlit_app - INFO - Loading model artifacts.
+2026-05-13 18:11:43,108 - streamlit_app - INFO - Loading model artifacts.
+2026-05-13 18:12:26,322 - streamlit_app - INFO - File uploaded: HR-Employee-Attrition.csv
+2026-05-13 18:13:18,636 - streamlit_app - INFO - File uploaded: HR-Employee-Attrition.csv
+2026-05-13 18:13:18,696 - streamlit_app - INFO - File uploaded: HR-Employee-Attrition.csv
+2026-05-13 18:13:18,876 - streamlit_app - INFO - File uploaded: HR-Employee-Attrition.csv
+2026-05-13 18:13:19,021 - streamlit_app - INFO - Starting prediction process.
+2026-05-13 18:13:19,021 - data_processing - INFO - Starting data preprocessing. is_training=False
+2026-05-13 18:13:19,021 - data_processing - INFO - Handling outliers for column: TrainingTimesLastYear
+2026-05-13 18:13:19,023 - data_processing - INFO - No outliers found in TrainingTimesLastYear.
+2026-05-13 18:13:19,024 - data_processing - INFO - Extracting target variable 'Attrition'
+2026-05-13 18:13:19,026 - data_processing - INFO - Dropping unnecessary columns.
+2026-05-13 18:13:19,066 - data_processing - INFO - Data preprocessing completed successfully.
+2026-05-13 18:13:19,071 - streamlit_app - INFO - Prediction successful.
+2026-05-13 18:13:33,697 - streamlit_app - INFO - File uploaded: HR-Employee-Attrition.csv
+2026-05-13 18:13:35,411 - streamlit_app - INFO - File uploaded: HR-Employee-Attrition.csv
+2026-05-13 18:13:35,428 - streamlit_app - INFO - Starting prediction process.
+2026-05-13 18:13:35,428 - data_processing - INFO - Starting data preprocessing. is_training=False
+2026-05-13 18:13:35,428 - data_processing - INFO - Handling outliers for column: TrainingTimesLastYear
+2026-05-13 18:13:35,430 - data_processing - INFO - No outliers found in TrainingTimesLastYear.
+2026-05-13 18:13:35,430 - data_processing - INFO - Extracting target variable 'Attrition'
+2026-05-13 18:13:35,433 - data_processing - INFO - Dropping unnecessary columns.
+2026-05-13 18:13:35,448 - data_processing - INFO - Data preprocessing completed successfully.
+2026-05-13 18:13:35,453 - streamlit_app - INFO - Prediction successful.
+2026-05-13 18:13:42,595 - streamlit_app - INFO - File uploaded: HR-Employee-Attrition.csv
+2026-05-13 18:13:51,301 - streamlit_app - INFO - File uploaded: HR-Employee-Attrition.csv
+2026-05-13 18:13:51,316 - streamlit_app - INFO - Starting prediction process.
+2026-05-13 18:13:51,317 - data_processing - INFO - Starting data preprocessing. is_training=False
+2026-05-13 18:13:51,317 - data_processing - INFO - Handling outliers for column: TrainingTimesLastYear
+2026-05-13 18:13:51,318 - data_processing - INFO - No outliers found in TrainingTimesLastYear.
+2026-05-13 18:13:51,319 - data_processing - INFO - Extracting target variable 'Attrition'
+2026-05-13 18:13:51,321 - data_processing - INFO - Dropping unnecessary columns.
+2026-05-13 18:13:51,334 - data_processing - INFO - Data preprocessing completed successfully.
+2026-05-13 18:13:51,338 - streamlit_app - INFO - Prediction successful.
+2026-05-13 18:23:27,091 - streamlit_app - INFO - Loading model artifacts.
