@@ -132,8 +132,19 @@ def main():
         try:
             logger.info(f"File uploaded: {uploaded_file.name}")
             
-            # Read CSV
-            df = pd.read_csv(uploaded_file)
+            # Read CSV with encoding fallbacks for non-UTF-8 files
+            def load_csv(file_obj):
+                encodings = ['utf-8', 'latin1', 'cp1252']
+                for enc in encodings:
+                    try:
+                        file_obj.seek(0)
+                        return pd.read_csv(file_obj, encoding=enc)
+                    except UnicodeDecodeError:
+                        logger.warning(f"Failed to decode file with encoding {enc}. Trying next encoding.")
+                file_obj.seek(0)
+                raise UnicodeDecodeError('utf-8', b'', 0, 1, 'Unable to decode file with supported encodings.')
+
+            df = load_csv(uploaded_file)
             
             # Check for empty input
             if df.empty:
